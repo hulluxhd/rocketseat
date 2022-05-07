@@ -1,0 +1,9 @@
+Componentes
+Como se fossem as tags no html. Forma de encapsular uma quantidade de códido dentro de um único elemento e esse elemento tem sua própria estrutura, estilização, etc. É uma forma de compartimentalizar a aplicação em pequenos conteúdos, que, quando conectados, formam a aplicação como um todo (ou uma parte dele). Dentro do react tudo é componente.
+É uma função (sempre com inicial maiuscula) que devolve um html e UM componente por arquivo.
+
+Propriedades
+Funcionam como atributos das tags html. São informações variáveis passadas para um componente funcionar de formas diferentes. Uma propriedade pode ser criada a partir de um elemento pai e o elemento filho pode acessar tais propriedades como se fosse um conjunto de propriedades via argumentos do componente filho.
+
+Estado
+

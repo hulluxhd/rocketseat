@@ -1,0 +1,9 @@
+Sempre se começa um projeto inicializando o repositório com o npm pra gerar um package.json
+O package.json terá as informações do projeto, como nome, versão, licensa. Mas o mais importante são as informações de dependências que estão dentro do projeto (na maioria, bibliotecas)
+A pasta node_modules armazena o código das dependências da aplicação (como o próprio react)
+A pasta src é onde fica tudo que é source do projeto. O código js por exemplo, vai aaqui.
+A pasta public é onde fica tudo o que é público, como o arquivo html, robot.txt
+O sufixo -D significa que estamos adicionando uma dependência no ambiente de desenvolvimento, mas quando ele for para produção a dependência será ignorada
+"Bundle" é uma convenção para nome de arquivo convertido pelo babel
+Webpack quase sempre é utilizado com o babel. Estipula uma série de configurações (loaders) que vão ensinar para aplicação como ela deve tratar cada um dos diversos arquivos de desenvolvimento (.sass .cjs. .hbs) de uma forma que seja compreensível pelo browser
+NODE_ENV=production | development são os ambientes de desenvolvimento ou de produção que devem ser passados ao webpack para identificar onde estamos. A configuração é process.env.NODE_ENV
